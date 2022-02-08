@@ -3,6 +3,7 @@ module.exports = {
       collect: {
             startServerCommand: "NODE_ENV=production yarn start",
             startServerReadyPattern:"You can now view",
+            startServerReadyTimeout:30000,
             url: [
                 "http://localhost:8000/"
             ],
