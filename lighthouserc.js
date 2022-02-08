@@ -2,7 +2,7 @@ module.exports = {
     ci: {
       collect: {
             startServerCommand: "NODE_ENV=production yarn start",
-            startServerReadyPattern:"You can now view"
+            startServerReadyPattern:"You can now view",
             url: [
                 "http://localhost:8000/"
             ],
