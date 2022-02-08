@@ -1,8 +1,8 @@
 module.exports = {
     ci: {
       collect: {
-            startServerCommand: "NODE_ENV=production yarn start",
-            startServerReadyPattern:"You can now view",
+            startServerCommand: "yarn start",
+            startServerReadyPattern:"You can now view dotnet-thailand in the browser.",
             startServerReadyTimeout:30000,
             url: [
                 "http://localhost:8000/"
