@@ -3,7 +3,7 @@ module.exports = {
       collect: {
             startServerCommand: "yarn start",
             startServerReadyPattern:"You can now view dotnet-thailand in the browser.",
-            /*startServerReadyTimeout:30000,*/
+            startServerReadyTimeout:300000,
             url: [
                 "http://localhost:8000/"
             ],
